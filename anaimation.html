@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    .main{
+        width:700px;
+        height:200px;
+        border:2px black solid;
+        margin:50px auto;
+        position:relative;
+    }
+    .box{
+        width:200px;
+        height:200px;
+        margin-top:0px;
+        background:red;
+        animation:box 4s 2;
+        position:absolute;
+        animation-timing-function:ease;
+        
+    }
+    @keyframes box{
+        from{
+            left:0px;
+        }
+        to{
+            left:500px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="box">
+ease
+    </div>
+    </div>
+</body>
+</html>
